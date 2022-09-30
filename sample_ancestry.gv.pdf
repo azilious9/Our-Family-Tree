@@ -3,10 +3,10 @@ digraph {
 	graph [splines=ortho]
 	bgcolor=azure1
 	fontsize=300 label="Our Family Tree"
-	K=20 nodesep=2.5 pad=5 ranksep=5
+	K=20 nodesep=2.5 pad=5 ranksep=4
 	ordering=out
 	outputorder=nodesfirst
-	"\l Legend: \l Blue Square indicates this individual is Male \l Pink Circle indicates this individual is Female \l Red Lines indicate Spousal Relationships \l Blue Lines indicate Sibling Relationships \l Siblings are placed in chronological order left to right from oldest to youngest \l An asterisk(*) next to a name indicates this name is repeated in the Family Tree\l Shaheed written next to a name indicates they were killed in the struggle of partition of Pakistan \l \n Please Note: \l 1. There are many people who passed away during the migration from India to Pakistan in 1947 whose names we are unaware of.\l 2. The Family Tree is subject to change due to individuals whose names have not been currently included \l 3. For questions or inqueries please contact the family of Abdul Mabood or Mohammad Ismail - Thank you \l Currently, there is a total of 575 people on the tree (including doubles) \l This depiction was updated of 9/2/2022 \l " [fillcolor=white fontname="times-bold" fontsize=30 shape=rect style=filled]
+	"\l Legend: \l Blue Square indicates this individual is Male \l Pink Circle indicates this individual is Female \l Red Lines indicate Spousal Relationships \l Blue Lines indicate Sibling Relationships \l Siblings are placed in chronological order left to right from oldest to youngest \l An asterisk(*) next to a name indicates this name is repeated in the Family Tree\l Shaheed written next to a name indicates they were killed in the struggle of partition of Pakistan \l \n Please Note: \l 1. There are many people who passed away during the migration from India to Pakistan in 1947 whose names we are unaware of.\l 2. The Family Tree is subject to change due to individuals whose names have not been currently included \l 3. For questions or inqueries please contact the family of Abdul Mabood or Mohammad Ismail - Thank you \l Currently, there is a total of 762 people on the tree (including doubles) \l This depiction was updated of 9/30/2022 \l " [fillcolor=white fontname="times-bold" fontsize=30 shape=rect style=filled]
 	Harpal [label=Harpal color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 shape=square style=filled tooltip="Lorem ipsum" xlabel="One of these 3 brothers converted to Islam by \n Khajawa Moin Uddin Chushti or one of his followers \n after seeing his specialities in Islam. (Source: Abdul Ghani and Dada Abdullah)"]
 	{
 		rank=same
@@ -72,28 +72,28 @@ digraph {
 " color=azure1 constraint=true]
 	{
 		rank=same
-		"Gulam Nabi" [label="Gulam Nabi" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Gulam Nabi" [label="Gulam Nabi" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Taajan Bibi" -> "Gulam Nabi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Muhammad Ashraf" [label="Muhammad Ashraf" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Muhammad Ashraf" [label="Muhammad Ashraf" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rehmat Bibi" -> "Muhammad Ashraf" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Husni Bibi" [label="Husni Bibi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Husni Bibi" [label="Husni Bibi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		Taajuddin -> "Husni Bibi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Bibi Saba" [label="Bibi Saba" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel="Bibi Saba passed away in Sangroor. "]
+		"Bibi Saba" [label="Bibi Saba" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel="Bibi Saba passed away in Sangroor. "]
 		Imaamuddin -> "Bibi Saba" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
@@ -492,35 +492,35 @@ digraph {
 " color=black constraint=true]
 	{
 		rank=same
-		"Maryam Saad" [label="Maryam Saad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Maryam Saad" [label="Maryam Saad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Muhammad Saad Ishaq (Shaheed)" -> "Maryam Saad" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Bismillah Ghani" [label="Bismillah Ghani" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Bismillah Ghani" [label="Bismillah Ghani" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Ghani" -> "Bismillah Ghani" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Abda Qadir" [label="Abda Qadir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Abda Qadir" [label="Abda Qadir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Qadir" -> "Abda Qadir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Amma Ji" [label="Amma Ji" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Amma Ji" [label="Amma Ji" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Hameed" -> "Amma Ji" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Saira Bano" [label="Saira Bano" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Saira Bano" [label="Saira Bano" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Rasheed" -> "Saira Bano" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
@@ -795,147 +795,147 @@ digraph {
 " color=black constraint=true]
 	{
 		rank=same
-		"Tayyaba Khatoon" [label="Tayyaba Khatoon" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Tayyaba Khatoon" [label="Tayyaba Khatoon" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Wasi Uddin" -> "Tayyaba Khatoon" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sagiran Saadi" [label="Sagiran Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sagiran Saadi" [label="Sagiran Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Ghayoor Saadi" -> "Sagiran Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shakira Rehman" [label="Shakira Rehman" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shakira Rehman" [label="Shakira Rehman" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Atiq Ur Rehman" -> "Shakira Rehman" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shafiq Khan" [label="Shafiq Khan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=" "]
+		"Shafiq Khan" [label="Shafiq Khan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=" "]
 		"Shahida Khatoon" -> "Shafiq Khan" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zulakhan Rajput" [label="Zulakhan Rajput" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zulakhan Rajput" [label="Zulakhan Rajput" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Naeem Rajput" -> "Zulakhan Rajput" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zohra Begum" [label="Zohra Begum" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zohra Begum" [label="Zohra Begum" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Touqueer Ahmed" -> "Zohra Begum" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Usman Kanval" [label="Usman Kanval" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Usman Kanval" [label="Usman Kanval" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Nasra Kanval" -> "Usman Kanval" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Aisha Khursheed" [label="Aisha Khursheed" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Aisha Khursheed" [label="Aisha Khursheed" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Khursheed Ahmed" -> "Aisha Khursheed" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Rukhsana Hayat" [label="Rukhsana Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Rukhsana Hayat" [label="Rukhsana Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Nadir Hayat" -> "Rukhsana Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Aslam Bhai" [label="Aslam Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Aslam Bhai" [label="Aslam Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Khalida Rasheed" -> "Aslam Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nazra Jahangir" [label="Nazra Jahangir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nazra Jahangir" [label="Nazra Jahangir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Jahangir Azam" -> "Nazra Jahangir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Islamuddin Khan" [label="Islamuddin Khan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Islamuddin Khan" [label="Islamuddin Khan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Bilqees Ghani" -> "Islamuddin Khan" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Faiz Bhai" [label="Faiz Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Faiz Bhai" [label="Faiz Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Khairunisa Ghani" -> "Faiz Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Aliya Nizami" [label="Aliya Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Aliya Nizami" [label="Aliya Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Masihuddin Nizami" -> "Aliya Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zohra Nizami" [label="Zohra Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zohra Nizami" [label="Zohra Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Masihuddin Nizami" -> "Zohra Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zahida Shareefan Nizami" [label="Zahida Shareefan Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zahida Shareefan Nizami" [label="Zahida Shareefan Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Minajuddin Nizami" -> "Zahida Shareefan Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Rizvi Ali" [label="Rizvi Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Rizvi Ali" [label="Rizvi Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Munni Khala" -> "Rizvi Ali" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Saleha Nizami" [label="Saleha Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Saleha Nizami" [label="Saleha Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Riazuddin Nizami" -> "Saleha Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Babar Qadir" [label="Babar Qadir" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Babar Qadir" [label="Babar Qadir" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Firdous Qadir" -> "Babar Qadir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Rabel Qadir" [label="Rabel Qadir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Rabel Qadir" [label="Rabel Qadir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abid Hameed" -> "Rabel Qadir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Tariq Shabana" [label="Tariq Shabana" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Tariq Shabana" [label="Tariq Shabana" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shabana Qadir" -> "Tariq Shabana" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
@@ -1390,455 +1390,441 @@ digraph {
 " color=black constraint=true]
 	{
 		rank=same
-		"Akhtari Saadi" [label="Akhtari Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Akhtari Saadi" [label="Akhtari Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Wahab Saadi" -> "Akhtari Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shakila Akhter Saadi" [label="Shakila Akhter Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shakila Akhter Saadi" [label="Shakila Akhter Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Nazar Hayat Saadi" -> "Shakila Akhter Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kishwer Saadi" [label="Kishwer Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kishwer Saadi" [label="Kishwer Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zakir Saadi" -> "Kishwer Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Parveen Saadi" [label="Parveen Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Parveen Saadi" [label="Parveen Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zaheeruddin Saadi" -> "Parveen Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Bano Saadi (Sabit)" [label="Bano Saadi (Sabit)" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Bano Saadi (Sabit)" [label="Bano Saadi (Sabit)" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Sabit Hayat Saadi" -> "Bano Saadi (Sabit)" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		Shehzad [label=Shehzad color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		Shehzad [label=Shehzad color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zahida Shehzad" -> Shehzad [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Bano Saadi (Sabir)" [label="Bano Saadi (Sabir)" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Bano Saadi (Sabir)" [label="Bano Saadi (Sabir)" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Sabir Ayub Saadi" -> "Bano Saadi (Sabir)" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nasreen Abdul Mabood" [label="Nasreen Abdul Mabood" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nasreen Abdul Mabood" [label="Nasreen Abdul Mabood" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abdul Mabood" -> "Nasreen Abdul Mabood" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nadira Ismail" [label="Nadira Ismail" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nadira Ismail" [label="Nadira Ismail" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Mohammad Ismail" -> "Nadira Ismail" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Numra Saadi" [label="Numra Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Numra Saadi" [label="Numra Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Adil Rajput" -> "Numra Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Toufeeq Rajput" [label="Toufeeq Rajput" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Toufeeq Rajput" [label="Toufeeq Rajput" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farhana Rajput" -> "Toufeeq Rajput" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kausar Saadi" [label="Kausar Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kausar Saadi" [label="Kausar Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Waseem Rajput" -> "Kausar Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Mahreen Ahmed" [label="Mahreen Ahmed" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Mahreen Ahmed" [label="Mahreen Ahmed" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Kaleem Rajput" -> "Mahreen Ahmed" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shazia Imran" [label="Shazia Imran" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shazia Imran" [label="Shazia Imran" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Imran Kanval" -> "Shazia Imran" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zara Farhan" [label="Zara Farhan" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zara Farhan" [label="Zara Farhan" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farhan Kanval" -> "Zara Farhan" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Lubna Rashid" [label="Lubna Rashid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Lubna Rashid" [label="Lubna Rashid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rashid Khan" -> "Lubna Rashid" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Samina Hamid" [label="Samina Hamid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Samina Hamid" [label="Samina Hamid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Hamid Khan" -> "Samina Hamid" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Maheen Ahmed" [label="Maheen Ahmed" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Maheen Ahmed" [label="Maheen Ahmed" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Hasan Hayat" -> "Maheen Ahmed" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Noreen Saadi" [label="Noreen Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Noreen Saadi" [label="Noreen Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Tanweer Ahmed" -> "Noreen Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Yasmeen Ahmed " [label="Yasmeen Ahmed " color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Yasmeen Ahmed " [label="Yasmeen Ahmed " color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Tasneem Ahmed" -> "Yasmeen Ahmed " [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Mahek Parvaiz" [label="Mahek Parvaiz" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Mahek Parvaiz" [label="Mahek Parvaiz" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Parvaiz Ahmed" -> "Mahek Parvaiz" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Farha Nizami" [label="Farha Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Farha Nizami" [label="Farha Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Javaid Ahmed" -> "Farha Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Wajiha Jibran" [label="Wajiha Jibran" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Wajiha Jibran" [label="Wajiha Jibran" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Jibran Ahmed" -> "Wajiha Jibran" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Akram Bhai" [label="Akram Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Akram Bhai" [label="Akram Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Ruqaiya Rehman" -> "Akram Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sabra Shams" [label="Sabra Shams" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sabra Shams" [label="Sabra Shams" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shams Ul Islam" -> "Sabra Shams" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Najma Nazar" [label="Najma Nazar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Najma Nazar" [label="Najma Nazar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Nazar Rehman" -> "Najma Nazar" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Amina Zafar" [label="Amina Zafar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Amina Zafar" [label="Amina Zafar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zafar Rehman" -> "Amina Zafar" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Anjum Qamar" [label="Anjum Qamar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Anjum Qamar" [label="Anjum Qamar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Qamar Rehman" -> "Anjum Qamar" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Unknown 14" [label="Unknown 14" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
-		"Arif Rehman" -> "Unknown 14" [label="
-
-" arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
-	}
-	{
-		rank=same
-		"Babu Bhai" [label="Babu Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Babu Bhai" [label="Babu Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Azra Rehman" -> "Babu Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"unknown 15" [label="unknown 15" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
-		"Asim Rehman" -> "unknown 15" [label="
-
-" arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
-	}
-	{
-		rank=same
-		"Hifz Ur Rehman" [label="Hifz Ur Rehman" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Hifz Ur Rehman" [label="Hifz Ur Rehman" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shahina Hafeez (Baby)" -> "Hifz Ur Rehman" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Azhar Khan" [label="Azhar Khan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Azhar Khan" [label="Azhar Khan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farzana Khan" -> "Azhar Khan" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nazar Iqbal" [label="Nazar Iqbal" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nazar Iqbal" [label="Nazar Iqbal" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rubina Nazar (Munoo)" -> "Nazar Iqbal" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nasir Iqbal" [label="Nasir Iqbal" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nasir Iqbal" [label="Nasir Iqbal" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Amna Nasir" -> "Nasir Iqbal" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Parveen Aamir" [label="Parveen Aamir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Parveen Aamir" [label="Parveen Aamir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Aamir Khan" -> "Parveen Aamir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Huma Waseem" [label="Huma Waseem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Huma Waseem" [label="Huma Waseem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Waseem Khijli" -> "Huma Waseem" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Saima Faheem" [label="Saima Faheem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Saima Faheem" [label="Saima Faheem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Faheem Khijli" -> "Saima Faheem" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sana Naeem" [label="Sana Naeem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sana Naeem" [label="Sana Naeem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Naeem Khijli" -> "Sana Naeem" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Somiya Mubashir" [label="Somiya Mubashir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Somiya Mubashir" [label="Somiya Mubashir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Mubashir Ali" -> "Somiya Mubashir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Naeem Bhatti" [label="Naeem Bhatti" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Naeem Bhatti" [label="Naeem Bhatti" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Seema Nizami" -> "Naeem Bhatti" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Muhammad Mushtaq" [label="Muhammad Mushtaq" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Muhammad Mushtaq" [label="Muhammad Mushtaq" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Samina Nizami" -> "Muhammad Mushtaq" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Naheed Saadi" [label="Naheed Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Naheed Saadi" [label="Naheed Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farukh Nizami" -> "Naheed Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Mehwish Musharaf" [label="Mehwish Musharaf" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Mehwish Musharaf" [label="Mehwish Musharaf" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Imran Nizami" -> "Mehwish Musharaf" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Abdul Kareem" [label="Abdul Kareem" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Abdul Kareem" [label="Abdul Kareem" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Samia Nizami" -> "Abdul Kareem" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sobiya Saadi" [label="Sobiya Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sobiya Saadi" [label="Sobiya Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Mehmood Nizami" -> "Sobiya Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Mehak Nizami" [label="Mehak Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Mehak Nizami" [label="Mehak Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Furqan Nizami" -> "Mehak Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nadia Saadi" [label="Nadia Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nadia Saadi" [label="Nadia Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farhan Nizami" -> "Nadia Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kishmala Abdul Mabood" [label="Kishmala Abdul Mabood" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kishmala Abdul Mabood" [label="Kishmala Abdul Mabood" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Irfan Nizami" -> "Kishmala Abdul Mabood" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Aisha (Christy) Rancon" [label="Aisha (Christy) Rancon" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Aisha (Christy) Rancon" [label="Aisha (Christy) Rancon" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Kamran Nizami" -> "Aisha (Christy) Rancon" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Naila Saadi" [label="Naila Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Naila Saadi" [label="Naila Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Qamar Hayat" -> "Naila Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shumaila Saadi" [label="Shumaila Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shumaila Saadi" [label="Shumaila Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Badar Hayat" -> "Shumaila Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shumaila Hayat" [label="Shumaila Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shumaila Hayat" [label="Shumaila Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Khizer Hayat" -> "Shumaila Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sahrish Hayat" [label="Sahrish Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sahrish Hayat" [label="Sahrish Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Fakher Hayat" -> "Sahrish Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Tooba Shakir Hayat" [label="Tooba Shakir Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Tooba Shakir Hayat" [label="Tooba Shakir Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shakir Hayat" -> "Tooba Shakir Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Noreen Shaqeel" [label="Noreen Shaqeel" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Noreen Shaqeel" [label="Noreen Shaqeel" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shaqeel Khan" -> "Noreen Shaqeel" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Imran Usmani" [label="Imran Usmani" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Imran Usmani" [label="Imran Usmani" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shazia Khan" -> "Imran Usmani" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kausar Zaheen" [label="Kausar Zaheen" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kausar Zaheen" [label="Kausar Zaheen" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zaheen Rajput" -> "Kausar Zaheen" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Naila Nizami" [label="Naila Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Naila Nizami" [label="Naila Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Saleem Rajput" -> "Naila Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nida Nadeem" [label="Nida Nadeem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nida Nadeem" [label="Nida Nadeem" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Nadeem Rajput" -> "Nida Nadeem" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Rabiya Qadir" [label="Rabiya Qadir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Rabiya Qadir" [label="Rabiya Qadir" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Haidar Hameed" -> "Rabiya Qadir" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Huda Salman" [label="Huda Salman" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Huda Salman" [label="Huda Salman" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Salman Kanval" -> "Huda Salman" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Saadia Umer" [label="Saadia Umer" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Saadia Umer" [label="Saadia Umer" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Umer Hayat" -> "Saadia Umer" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Noushaba Hayat" [label="Noushaba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Noushaba Hayat" [label="Noushaba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Mansoor Rajput" -> "Noushaba Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Mariyam Hayat" [label="Mariyam Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Mariyam Hayat" [label="Mariyam Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Ali Rajput" -> "Mariyam Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
@@ -2004,7 +1990,7 @@ digraph {
 	"Sabit Hayat Saadi" -> "Kainat Saadi" [label="
 
 " color=black constraint=true]
-	"Shahid Shehzad" [label="Shahid Shehzad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Shahid Shehzad" [label="Shahid Shehzad" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 	"Zahida Shehzad" -> "Shahid Shehzad" [label="
 
 " color=black constraint=true]
@@ -2662,287 +2648,287 @@ digraph {
 " color=black constraint=true]
 	{
 		rank=same
-		"Rifhat Zahid" [label="Rifhat Zahid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Rifhat Zahid" [label="Rifhat Zahid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zahid Shehzad" -> "Rifhat Zahid" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zuhaib Bhai" [label="Zuhaib Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zuhaib Bhai" [label="Zuhaib Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Afshan Shehzad" -> "Zuhaib Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shehzad Bhai" [label="Shehzad Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shehzad Bhai" [label="Shehzad Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farheen Shehzad" -> "Shehzad Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zara Zubair" [label="Zara Zubair" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zara Zubair" [label="Zara Zubair" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Zubair Shehzad" -> "Zara Zubair" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Tooba Hayat" [label="Tooba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Tooba Hayat" [label="Tooba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Owais Shehzad" -> "Tooba Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sofia Shahid" [label="Sofia Shahid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sofia Shahid" [label="Sofia Shahid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shahid Shehzad" -> "Sofia Shahid" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Saba Hayat" [label="Saba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Saba Hayat" [label="Saba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Tahir Saadi" -> "Saba Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Ayaz Shaikh" [label="Ayaz Shaikh" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Ayaz Shaikh" [label="Ayaz Shaikh" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Quratulain Saadi (Annie)" -> "Ayaz Shaikh" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Meher Nizami" [label="Meher Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Meher Nizami" [label="Meher Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Tariq Saadi" -> "Meher Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sonia Saadi" [label="Sonia Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sonia Saadi" [label="Sonia Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Asif Saadi" -> "Sonia Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shafaq Shehzad" [label="Shafaq Shehzad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shafaq Shehzad" [label="Shafaq Shehzad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Kashif Saadi" -> "Shafaq Shehzad" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nousheen Shehzad " [label="Nousheen Shehzad " color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nousheen Shehzad " [label="Nousheen Shehzad " color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Sajid Saadi" -> "Nousheen Shehzad " [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Aisha Saadi" [label="Aisha Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Aisha Saadi" [label="Aisha Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Wajid Saadi" -> "Aisha Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Saima Nizami" [label="Saima Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Saima Nizami" [label="Saima Nizami" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rashid Gulab Saadi" -> "Saima Nizami" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Khurram Ul Haq (Habib)" [label="Khurram Ul Haq (Habib)" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Khurram Ul Haq (Habib)" [label="Khurram Ul Haq (Habib)" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Sajida Saadi" -> "Khurram Ul Haq (Habib)" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Mudassir Ajmal" [label="Mudassir Ajmal" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Mudassir Ajmal" [label="Mudassir Ajmal" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Saima Saadi" -> "Mudassir Ajmal" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shaani Maqsood" [label="Shaani Maqsood" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shaani Maqsood" [label="Shaani Maqsood" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Tabassum Saadi" -> "Shaani Maqsood" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Hina Saadi" [label="Hina Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Hina Saadi" [label="Hina Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Imran Wahab Saadi" -> "Hina Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Zareen Kanval" [label="Zareen Kanval" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Zareen Kanval" [label="Zareen Kanval" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Mannan Saadi" -> "Zareen Kanval" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Maryam Saadi" [label="Maryam Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Maryam Saadi" [label="Maryam Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Salman Saadi" -> "Maryam Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Ruqash Bhatti" [label="Ruqash Bhatti" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Ruqash Bhatti" [label="Ruqash Bhatti" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Farhan Saadi" -> "Ruqash Bhatti" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Filza Shaftaen Rajput" [label="Filza Shaftaen Rajput" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Filza Shaftaen Rajput" [label="Filza Shaftaen Rajput" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Imran Saadi" -> "Filza Shaftaen Rajput" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kevin Smith" [label="Kevin Smith" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kevin Smith" [label="Kevin Smith" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Labiqa Nazar" -> "Kevin Smith" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Manahil Athar" [label="Manahil Athar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Manahil Athar" [label="Manahil Athar" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Moiz Khan" -> "Manahil Athar" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Eijaz Shaikh" [label="Eijaz Shaikh" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Eijaz Shaikh" [label="Eijaz Shaikh" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Shagufta Saadi" -> "Eijaz Shaikh" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Nousheen Hayat" [label="Nousheen Hayat" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nousheen Hayat" [label="Nousheen Hayat" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Noman Saadi" -> "Nousheen Hayat" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Chaand Hasan" [label="Chaand Hasan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Chaand Hasan" [label="Chaand Hasan" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Raheela Saadi" -> "Chaand Hasan" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Fareed Bhai" [label="Fareed Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
-		"Nazia Saadi" -> "Fareed Bhai" [label="
+		"Fareed Mohammad" [label="Fareed Mohammad" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Nazia Saadi" -> "Fareed Mohammad" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Umair Qureshi" [label="Umair Qureshi" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Umair Qureshi" [label="Umair Qureshi" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Sumaira Saadi" -> "Umair Qureshi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Suhaira Saadi" [label="Suhaira Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Suhaira Saadi" [label="Suhaira Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Irfan Saadi" -> "Suhaira Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kishmain Saadi" [label="Kishmain Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kishmain Saadi" [label="Kishmain Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Faizan Saadi" -> "Kishmain Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Daniyal Bhai" [label="Daniyal Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Daniyal Bhai" [label="Daniyal Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rabia Rajput" -> "Daniyal Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Waqas Bhai" [label="Waqas Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Waqas Bhai" [label="Waqas Bhai" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Arfa Saadi" -> "Waqas Bhai" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sidratul Muntaha Abuzer" [label="Sidratul Muntaha Abuzer" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sidratul Muntaha Abuzer" [label="Sidratul Muntaha Abuzer" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Abuzer Saadi" -> "Sidratul Muntaha Abuzer" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shazia Ali" [label="Shazia Ali" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shazia Ali" [label="Shazia Ali" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rashid Ali" -> "Shazia Ali" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Sajid Ali" [label="Sajid Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Sajid Ali" [label="Sajid Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Rehana Ali" -> "Sajid Ali" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Shazia Saadi" [label="Shazia Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Shazia Saadi" [label="Shazia Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Asif Ali" -> "Shazia Saadi" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Waseem Ali" [label="Waseem Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Waseem Ali" [label="Waseem Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Kiran Ali" -> "Waseem Ali" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Imran Ali" [label="Imran Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Imran Ali" [label="Imran Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Sumera Ali" -> "Imran Ali" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Imran Ali (Ayesha)" [label="Imran Ali (Ayesha)" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Imran Ali (Ayesha)" [label="Imran Ali (Ayesha)" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Ayesha Ali" -> "Imran Ali (Ayesha)" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
 	}
 	{
 		rank=same
-		"Kamran Ali" [label="Kamran Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+		"Kamran Ali" [label="Kamran Ali" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 margin=.9 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 		"Bushra Ali" -> "Kamran Ali" [label="
 
 " arrowhead=none color="red:invis:red" dir=both penwidth=5.0]
@@ -2956,8 +2942,8 @@ digraph {
 	"Zahid Shehzad" -> "Rayan Zahid" [label="
 
 " color=black constraint=true]
-	"girl 1" [label="girl 1" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
-	"Zahid Shehzad" -> "girl 1" [label="
+	"Parizay Zahid" [label="Parizay Zahid" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Zahid Shehzad" -> "Parizay Zahid" [label="
 
 " color=black constraint=true]
 	"Maham Zuhaib" [label="Maham Zuhaib" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
@@ -3156,6 +3142,10 @@ digraph {
 	"Imran Saadi" -> "Ayat Saadi" [label="
 
 " color=black constraint=true]
+	"Rehan Mohammad Saadi" [label="Rehan Mohammad Saadi" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Imran Saadi" -> "Rehan Mohammad Saadi" [label="
+
+" color=black constraint=true]
 	"Mohammad Ahmed" [label="Mohammad Ahmed" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 	"Shameen Hafeez" -> "Mohammad Ahmed" [label="
 
@@ -3168,8 +3158,72 @@ digraph {
 	"Labiqa Nazar" -> "Khalila Smith-Khan" [label="
 
 " color=black constraint=true]
+	"Shefa Mohammad" [label="Shefa Mohammad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Nazia Saadi" -> "Shefa Mohammad" [label="
+
+" color=black constraint=true]
+	"Zoha Mohammad" [label="Zoha Mohammad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Nazia Saadi" -> "Zoha Mohammad" [label="
+
+" color=black constraint=true]
+	"Hafsa Mohammad" [label="Hafsa Mohammad" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Nazia Saadi" -> "Hafsa Mohammad" [label="
+
+" color=black constraint=true]
+	"Ahmed Mohammad" [label="Ahmed Mohammad" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Nazia Saadi" -> "Ahmed Mohammad" [label="
+
+" color=black constraint=true]
+	"Iqra Qureshi" [label="Iqra Qureshi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Sumaira Saadi" -> "Iqra Qureshi" [label="
+
+" color=black constraint=true]
+	"Zainab Qureshi" [label="Zainab Qureshi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Sumaira Saadi" -> "Zainab Qureshi" [label="
+
+" color=black constraint=true]
+	"Minahil Qureshi" [label="Minahil Qureshi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Sumaira Saadi" -> "Minahil Qureshi" [label="
+
+" color=black constraint=true]
+	"Alaya Saadi" [label="Alaya Saadi" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Irfan Saadi" -> "Alaya Saadi" [label="
+
+" color=black constraint=true]
 	"Abaan Zuhaib" [label="Abaan Zuhaib" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
 	"Afshan Shehzad" -> "Abaan Zuhaib" [label="
+
+" color=black constraint=true]
+	"Ezzah Zuhaib" [label="Ezzah Zuhaib" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Afshan Shehzad" -> "Ezzah Zuhaib" [label="
+
+" color=black constraint=true]
+	"Hashir Hayat" [label="Hashir Hayat" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Naila Saadi" -> "Hashir Hayat" [label="
+
+" color=black constraint=true]
+	"Mubashir Hayat" [label="Mubashir Hayat" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Naila Saadi" -> "Mubashir Hayat" [label="
+
+" color=black constraint=true]
+	"Mudassir Hayat" [label="Mudassir Hayat" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Naila Saadi" -> "Mudassir Hayat" [label="
+
+" color=black constraint=true]
+	"Laiba Hayat" [label="Laiba Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Shumaila Saadi" -> "Laiba Hayat" [label="
+
+" color=black constraint=true]
+	"Bushra Hayat" [label="Bushra Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Shumaila Saadi" -> "Bushra Hayat" [label="
+
+" color=black constraint=true]
+	"Ashar Hayat" [label="Ashar Hayat" color=black fillcolor=skyblue2 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=square style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Shumaila Saadi" -> "Ashar Hayat" [label="
+
+" color=black constraint=true]
+	"Noorulain Hayat" [label="Noorulain Hayat" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
+	"Shumaila Saadi" -> "Noorulain Hayat" [label="
 
 " color=black constraint=true]
 	"Aniya Daniyal" [label="Aniya Daniyal" color=black fillcolor=rosybrown1 fontcolor=black fontname="times-bold" fontsize=30 image="" margin=.1 shape=doublecircle style=filled tooltip="Lorem ipsum" xlabel=""]
